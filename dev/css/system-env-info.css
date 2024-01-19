@@ -1,0 +1,73 @@
+/*** 背景壁紙の上書き ***/
+/* メイン部の背景 */
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  z-index: 52;
+  width: 1200px;
+  height: 1450px;
+  margin-top: -44px;
+}
+
+/*** システム概要図の体裁の調整 */
+.div-system-structure-map {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+img[target="sys-struct-map"] {
+  width: 600px;
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+
+/*** 開発・テスト環境の体裁の調整 ***/
+.system-reguration {
+  position: relative;
+  top: 30px;
+  left: 40px;
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.yokohama-base {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.yokohama-factory {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.dividual-env {
+  font-size: 20px;
+  line-height: 36px;
+  color: black;
+}
+
+.kobe-satelite {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.kobe-office {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.claud-server {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.cloud-servers {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.rental-server {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.rental-servers {
+  margin: 20px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
+}

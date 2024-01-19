@@ -1,0 +1,28 @@
+/*** 背景壁紙の上書き ***/
+/* メイン部の背景 */
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  z-index: 52;
+  width: 1200px;
+  height: 700px;
+  margin-top: -44px;
+}
+
+/*** オフィス情報の体裁の調整 */
+
+.office-address-01 {
+  margin: 10px 30px;
+  padding: 20px 20px;
+}
+
+.address-part {
+  margin: 20px 30px 10px 20px;
+  padding: 0 10px 0 10px;
+}
+
+.h2_comment {
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+}

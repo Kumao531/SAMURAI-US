@@ -1,0 +1,214 @@
+/* メイン部の背景 */
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  width: 1200px;
+  height: 1500px;
+  margin-top: -44px;
+}
+
+/* 全体的な構成の骨格 */
+
+.div-block {
+  width: 1200px;
+  margin: 45px 30px 10px 30px;
+}
+
+.mention-block p {
+  width: auto;
+  margin: 10px 0px 0px 30px;
+  font-size: 20px;
+}
+
+.div-company-frame-part {
+  width: auto;
+  height: 200px;
+}
+
+/* ご挨拶部分 */
+
+.div-greeting {
+  width: 1140px;
+  padding-top: 50px;
+}
+
+/*
+.div-greeting {
+}
+*/
+
+/* 会社の概要説明 */
+
+.div-company {
+  width: auto;
+  height: 600px;
+}
+
+.what-company {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 30px;
+  left: 35px;
+  background-image: url("../images/Page-top/flame.png");
+  background-repeat: no-repeat;
+}
+
+.what-services {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 30px;
+  left: 600px;
+  background-image: url("../images/Page-top/flame.png");
+  background-repeat: no-repeat;
+}
+
+.flame-title-company {
+  padding-top: 50px;
+  padding-left: 160px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.flame-title-services {
+  padding-top: 50px;
+  padding-left: 88px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.company-abstract {
+  padding-top: 30px;
+  padding-left: 80px;
+  font-size: 16px;
+  line-height: 24px;
+  list-style-type: disc;
+  color: black;
+}
+
+.service-abstract {
+  padding-top: 30px;
+  padding-left: 80px;
+  font-size: 16px;
+  line-height: 24px;
+  list-style-type: disc;
+  color: black;
+}
+
+.what-service-i-took {
+  margin: 10px 10px 0px 14px;
+  padding-top: 16px;
+  padding-left: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+/* より詳しく見たいボタン */
+
+.div-company-button-part {
+  position: absolute;
+  top: 440px;
+  left: 85px;
+}
+
+.div-services-button-part {
+  position: absolute;
+  top: 440px;
+  left: 85px;
+}
+
+.company-detail-button {
+  width: 330px;
+}
+
+.services-detail-button {
+  width: 330px;
+}
+
+/* サービスへの心構え */
+
+.div-principle {
+  width:auto;
+  height: 500px;
+
+}
+
+.my-sympathy {
+  position: absolute;
+  width: 500px;
+  height: 800px;
+  top: 40px;
+  left: 35px;
+
+  background-image: url("../images/Page-top/frame2.png");
+  background-repeat: no-repeat;
+}
+
+.my-motto {
+  position: absolute;
+  width: 500px;
+  height: 800px;
+  top: 40px;
+  left: 600px;
+  background-image: url("../images/Page-top/frame2.png");
+  background-repeat: no-repeat;
+}
+
+.flame-title-sympathy {
+  padding-top: 70px;
+  padding-left: 188px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.flame-title-motto {
+  padding-top: 70px;
+  padding-left: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.sympathy-abstract {
+  padding-top: 30px;
+  padding-left: 140px;
+  font-size: 20px;
+  line-height: 40px;
+  list-style-type: cjk-decimal;
+  color: black;
+}
+
+.motto-abstract {
+  padding-top: 30px;
+  padding-left: 160px;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
+}
+
+/* より詳しく見たいボタン */
+
+.div-sympathy-button-part {
+  position: absolute;
+  top: 440px;
+  left: 85px;
+}
+
+.sympathy-detail-button {
+  width: 330px;
+}
+
+.div-motto-button-part {
+  position: absolute;
+  top: 440px;
+  left: 85px;
+}
+
+.motto-detail-button {
+  width: 330px;
+}

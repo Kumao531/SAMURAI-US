@@ -1,0 +1,23 @@
+/*** 背景壁紙の上書き ***/
+/* メイン部の背景 */
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  z-index: 52;
+  width: 1200px;
+  height: 700px;
+  margin-top: -44px;
+}
+
+/*** 企業情報テーブルの体裁の調整 */
+
+.mention-block {
+  margin: 10px 30px;
+  padding: 20px 20px;
+}
+
+.td-on-tbl  {
+  font-size: 24px;
+  color : black;
+  padding: 7px 0px;
+}

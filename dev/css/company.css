@@ -1,0 +1,80 @@
+/* メイン部の背景 */
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  width: 1200px;
+  height: 3000px;
+  margin-top: -44px;
+}
+
+/* 全体的な構成の骨格 */
+
+.div-block {
+  width: 1200px;
+  margin: 40px 30px 20px 30px;
+  padding: 30px 0 10px 0;
+}
+
+.mention-block p {
+  width: auto;
+  margin: 10px 0px 0px 30px;
+  font-size: 20px;
+}
+
+.div-company-frame-part {
+  width: auto;
+  height: 200px;
+}
+
+/* 会社紹介部分 */
+
+.what-company {
+  width: 1150px;
+  margin: 30px 30px 10px 20px;
+  padding: 30px 10px 0px 10px;
+}
+
+/* テーブルレイアウトの構造定義 */
+
+.div-block {
+  width: 1100px;
+}
+
+/* 左文章型テーブル設計 */
+.tbl-left {
+  width:1100px;
+  padding: 30px 0 0 0;
+}
+.td-left-tbl-left {
+  width: 650px;
+  vertical-align: top;
+}
+.td-mid-tbl-left {
+  width: 50px;
+}
+.td-right-tbl-left  {
+  width: 400px;
+}
+/* 右文章型テーブル設計 */
+.tbl-right {
+  width:1100px;
+  padding: 30px 0 0 0;
+}
+.td-left-tbl-right  {
+  width: 400px;
+}
+.td-mid-tbl-right {
+  width: 50px;
+}
+.td-right-tbl-right {
+  width: 650px;
+  vertical-align: top;
+}
+
+/* 文体体裁の設計 */
+.p-td {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* 写真 */

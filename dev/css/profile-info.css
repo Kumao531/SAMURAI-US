@@ -1,0 +1,84 @@
+/*** 背景壁紙の上書き ***/
+/* メイン部の背景 */
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  z-index: 52;
+  width: 1200px;
+  height: 1950px;
+  margin-top: -44px;
+}
+
+/*** プロフィール情報の体裁の調整 */
+
+.profile-name {
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.profile-name p {
+  font-size: 36px;
+  color: black;
+}
+
+.name-kana {
+  position: absolute;
+  top: 190px;
+  left: 45px;
+  margin: 0 0;
+}
+.name-kana p {
+  font-size:18px;
+}
+
+.histories {
+  margin: 60px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.ryakureki_setumei {
+  padding: 30px 0 0 0;
+}
+
+td#daihyou_zou {
+  vertical-align: top;
+}
+
+img[target="img-profile"] {
+  width: 210px;
+  margin: 0 10px;
+  padding: 0 20px;
+}
+
+td#ryakureki_note p {
+  font-size: 18px;
+  line-height: 32px;
+  color: black;
+}
+
+.reader_note {
+  padding-left: 24px;
+  font-size: 18px;
+  line-height: 28px;
+  color: black;
+}
+
+.hobies {
+  margin: 20px 20px 20px 40px;
+  padding: 10px 10px 10px 10px;
+}
+
+.syumi_setumei {
+  margin: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.p-notes {
+  font-size: 18px;
+  line-height: 32px;
+  color: black;
+}
+
+img[target="img-hanazono"] {
+  width: 800px;
+  padding: 25px 0 0 0;
+}

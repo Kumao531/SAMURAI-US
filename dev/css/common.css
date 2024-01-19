@@ -1,0 +1,464 @@
+/************************************/
+/* フォント                         */
+/************************************/
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap&subset=japanese");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+/* 等線体
+font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+.nav-font {
+
+}
+
+body {
+  font-family: "Noto Serif JP", serif;
+  font-size: 14px;
+  font-weight: 400;
+  background: #ffffff;
+  color: #a5a5a5;
+}
+
+div {
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: "Noto Serif JP", serif;
+  font-size: 14px;
+  line-height: 1.85;
+  font-weight: 400;
+  color: #76777a;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+p a {
+  display: inline;
+  position: relative;
+  color: inherit;
+  border-bottom: solid 1px #ffa07f;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+a,
+a:hover,
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+p a:active {
+  position: relative;
+  color: #ff6347;
+}
+
+p a:hover {
+  color: #ffffff;
+  background: #ffa07f;
+}
+
+p a:hover::after {
+  opacity: 0.2;
+}
+
+::selection {
+}
+
+p::selection {
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Serif JP", serif;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+  color: #384158;
+  margin-bottom: 0;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+}
+
+.form-control {
+  color: #db5246;
+}
+
+section {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.trans_200 {
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.trans_300 {
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.trans_400 {
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.trans_500 {
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.fill_height {
+  height: 100%;
+}
+
+.super_container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.prlx_parent {
+  overflow: hidden;
+}
+
+.prlx {
+  height: 130% !important;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
+.nopadding {
+  padding: 0px !important;
+}
+
+/************************************/
+/* 領域設定                         */
+/************************************/
+
+/* html全体 */
+
+html {
+}}
+
+/* header部分の設定 */
+
+/* バナー部分の組み立て */
+img[target="banner-img"]  {
+  z-index: 50;
+  width: 1200px;
+  height: 80px;
+}
+
+img[target="logo-img"] {
+  z-index: 51;
+  position: absolute;
+  top: -90px;
+  left: 25px;
+  height: 72px;
+  width: auto;
+}
+
+/* ナビゲーション */
+
+div[target="nav-block"] > .nav-pc {
+  z-index: 52;
+  position: absolute;
+  top: -70px;
+  left: 480px;
+  font-size: 20px;
+}
+div[target="nav-block"] > .nav-pc > a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+div[target="nav-block"] > .nav-pc > a:link {
+  color: #000000;
+}
+div[target="nav-block"] > .nav-pc > a:visited {
+  color: #000000;
+}
+div[target="nav-block"] > .nav-pc > a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+div[target="nav-block"] > .nav-pc > a:active {
+  color: #000000;
+}
+
+/* main部の設定 */
+
+.main {
+}
+
+/* タイトル画像面部分の設定 */
+
+img[target="title-photo"] {
+  margin-top: -2px;
+  width: 1200px;
+}
+
+#title-message {
+  width: 1200px;
+}
+
+#title-h1 {
+  z-index: 51;
+  width: auto;
+  height: 100px;
+  margin-top: -400px;
+  margin-bottom: 30px;
+  font-size: 65px;/*
+  text-shadow: 2px 2px 11px white; */
+  /**/
+      text-shadow:
+        0 2px 0 #c7c7c7,
+        0 3px 0 #c7c7c7,
+        0 4px 5px #100a0a;
+  /**/
+  text-align: center;
+}
+
+#title-content {
+  z-index: 51;
+  width: 1200px;
+  height: 267px;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+#title-content p {
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #161212;
+  text-shadow: 2px 2px 11px white;
+}
+
+/* コンテンツの記述の本体部分 */
+
+
+/* body部分の設定 */
+
+
+/* footer部の設定 */
+
+.div-footer {
+
+}
+
+#wall-paper-footer {
+  background-image: url("../images/Footer/FooterBackground.png");
+  width: 1200px;
+  height: 225px;
+  /*
+  background-color: black;*/
+}
+
+footer .footer-block {
+  z-index: 50;
+  width: auto;
+  height: 190px;
+  margin:  0 30px;
+  padding-top: 8px;/*
+  background-color: green;
+  opacity: 0.5;*/
+}
+
+footer .footer-block-box-1 {
+  position: absolute;
+  z-index: 51;
+  top: 25px;
+  left: 80px;
+  width: 200px;
+  height: 180px;/*
+  background-color: brown;
+  opacity: 0.8;*/
+}
+
+footer .footer-block-box-2 {
+  position: absolute;
+  top: 25px;
+  left: 340px;
+  width: 340px;
+  height: 180px;/*
+  background-color: green;
+  opacity: 0.8;*/
+}
+
+footer .footer-block-box-3 {
+  position: absolute;
+  top: 25px;
+  left: 780px;
+  width: 240px;
+  height: 180px;/*
+  background-color: red;
+  opacity: 0.5;*/
+}
+
+footer .footer-copyright  {
+  position: absolute;
+  top: 188px;
+  left: 0px;
+  width: 1140px;
+  height: 35px;/*
+  background-color: pink;
+  opacity: 0.5;*/
+}
+
+footer .menu-item {
+  display: block;
+}
+
+footer .h3-footer {
+  z-index: 50;
+  font-size: 18px;
+  line-height: 40px;
+  color: white;;
+}
+
+footer .menu-item {
+  padding-left: 24px;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: white;
+}
+footer .menu-item > a:link {
+  color: white;
+}
+footer .menu-item> a:visited {
+  color: salmon;
+}
+footer .menu-item a:hover {
+  color: salmon;
+  text-decoration: underline;
+}
+footer .menu-item > a:active {
+  color: white;
+}
+
+footer .h3-underline {
+  text-decoration: underline;
+}
+
+footer .p-statement {
+  padding-left: 24px;
+  font-size: 12px;
+  line-height: 18px;
+  color: white;
+}
+
+footer .mention-copyright {
+  text-align: right;
+  color: white;
+}
+
+/* 工事中 */
+img[target="Under-Construction"] {
+  padding-top: 200px;
+  text-align: center;
+}

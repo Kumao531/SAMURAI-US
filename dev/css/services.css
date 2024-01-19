@@ -1,0 +1,123 @@
+/*** メイン部の背景 ***/
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  width: 1200px;
+  height:1200px;
+  margin-top: -44px;
+}
+
+/*** 全体的な構成の骨格 ***/
+
+.div-block {
+  width: 1200px;
+  margin: 45px 30px 10px 30px;
+}
+
+.mention-block p {
+  width: auto;
+  margin: 10px 0px 0px 30px;
+  font-size: 20px;
+}
+
+.div-company-frame-part {
+  width: auto;
+  height: 200px;
+}
+
+/*** サービスのメニュー表示 ***/
+
+.div-service-menu {
+  width: 1140px;
+  padding: 90px 0 0 50px;
+}
+
+.p-menu-explain {
+  padding: 18px 0 0 30px;
+  font-size: 21px;
+  line-height: 32px;
+  color: black;
+}
+
+/* 掲示板部分の指定 */
+
+.div-menu-display {
+  margin: 0 0;
+  padding-top: 50px;
+  text-align: center;
+}
+
+img[target="img-display-board"] {
+  width: 900px;
+  height: 900px
+}
+
+/* 各メニュー名盤の指定 */
+
+.tbl-menu {
+  position: absolute;
+  top: -615px;
+  left: 170px;
+  width: 700px;
+}
+
+img[target="img-n-plate"] {
+  width: 200px;
+  height: 140px;
+}
+
+.div-menu-cell-1 {
+  position: absolute;
+  top: -600px;
+  left: 200px;
+}
+
+.div-menu-cell-2 {
+  position: absolute;
+  top: -600px;
+  left: 440px;
+}
+
+.div-menu-cell-3 {
+  position: absolute;
+  top: -600px;
+  left: 680px;
+}
+
+.div-menu-cell-4 {
+  position: absolute;
+  top: -400px;
+  left: 200px;
+}
+
+/* 名盤上の字体の設定 */
+
+.p-n-plate {
+  position: relative;
+  top: -85px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.p-n-plate-2 {
+  position: relative;
+  top: -98px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.p-n-plate-2-s {
+  position: relative;
+  top: -95px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+  color: black;
+}
