@@ -1,0 +1,213 @@
+/********************************************/
+/* フォームのガワ自身の表示エリアの位置決め */
+/********************************************/
+.article-description {
+  top: 100px;
+  left: 20px;
+  width: 1050px;
+  height: 800px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.form-area {
+  top: 130px;
+  left: 40px;
+  width: 1050px;
+  height: 800px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.inquiries-form {
+  top: 10px;
+  left: 40px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+/********************************************/
+/* フォームタイトルの体裁の設定             */
+/********************************************/
+.form-title {
+  margin: 10px 10px 0 10px;
+  padding: 20px 20px 0 20px;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+/********************************************/
+/* フォームの構造を決めるテーブルの位置決め */
+/********************************************/
+.inquiries-tbl {
+  width: 800px;
+  margin: 10px 0 0 0;
+  padding: 10px 0 0 0;
+}
+
+/********************************************/
+/* テーブル内の文字の体裁                   */
+/********************************************/
+/* カラムにfillした仮の文字を消す*/
+.silent-word {
+  font-size: 1px;
+  opacity: 0;
+}
+
+/* タイトル行の文字の体裁 */
+.title-word {
+  font-size: 18px;
+  color: black;
+}
+
+/* タイトルに付随する注釈文字の体裁 */
+.empasis-phrase {
+  font-size: 12px;
+  vertical-align: text-top;
+  color: red;
+}
+
+/********************************************/
+/* 1行で構成されるテーブル                  */
+/********************************************/
+.one-row-table {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.head-td {
+  width: 5%;
+}
+
+.title-td {
+  width: 30%;
+}
+
+.colon-td {
+  width:5%
+}
+
+.tail-td {
+  width: 10%;
+}
+
+/********************************************/
+/* 2行で構成されるテーブル                  */
+/********************************************/
+.two-row-table-1st {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.row-two-row-table-1st {
+  height: 30px;
+}
+
+.two-row-table-2nd {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.row-two-row-table-2nd {
+  height: 30px;
+}
+
+.head-td-2nd-table {
+  width: 8%;
+}
+
+/********************************************/
+/* 2行以上で構成されるテーブル              */
+/********************************************/
+.title-row-many-row-table {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.title-row-manu-row-table {
+  height: 30px;
+}
+
+.reply-row-many-row-table {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.reply-row-many-row-table {
+  height: 30px;
+}
+
+/********************************************/
+/* 個別の行（テーブル内）の体裁             */
+/********************************************/
+.sex-td {
+  padding: 5px;
+}
+
+.from-where-td {
+  height: 20px;
+  padding: 2px 0px 2px 0px;
+}
+
+.reply-area-align {
+  padding-top: 20px;
+}
+
+/********************************************/
+/* 送信ボタンの体裁                         */
+/********************************************/
+.send-btn {
+  margin: 10px 10px 0 10px;
+  padding: 20px 20px 0 40px;
+  padding-top: 30px;
+}
+
+/*** 上書き ***/
+/*** footer部の設定 ***/
+
+#wall-paper-footer-sideboard {
+  width: 1200px;
+  height: 155px;
+  margin: 22px 0 0 0;
+  background-color: darkblue;
+}
+
+footer .footer-block-sideboard {
+  z-index: 50;
+  width: auto;
+  height: 120px;
+  margin:  0 30px;
+  padding-top: 8px;/*
+  background-color: green;
+  opacity: 0.5;*/
+}
+
+footer .footer-block-box-sideboard {
+  z-index: 51;
+  top: 20px;
+  left: 1030px;
+  width: 200px;
+  height: 180px;/*
+  background-color: brown;
+  opacity: 0.8;*/
+}
+
+footer .footer-copyright-sideboard {
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  width: 1150px;
+  height: 35px;/*
+  background-color: pink;
+  opacity: 0.5;*/
+}

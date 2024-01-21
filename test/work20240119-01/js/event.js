@@ -1,32 +1,21 @@
-/*
-var btn = document.getElementById('sample');
+const btn = document.getElementById('btn-info');
 
-imgElem.onmouseover = function() {
-	this.src = '../images/HotCompanyInfoSearch.png';
-};
+const url = location.href;
+const path = location.pathname;
 
-imgElem.onmouseout = function() {
-	this.src = '../images/PaleCompanyInfoSearch.png';
-};
-*/
-const btn = document.getElementById('sample');
+console.log('url(' + url + ')');
+console.log('pathname(' + path + ')');
 
-
-/*
-btn.addEventListener('onmouseover', () => {
-  // コンソルにコメントを残す
-  console.log('onmouseoverされた！');
-});
-*/
-
-// 「企業情報を検索する用のボタン」にマウスが入ってきた時に実行する
 btn.addEventListener('mouseenter', () => {
-  // コンソルにコメントを残す
-  console.log('mouseenterが発生した！');
+  /*
+  btn.setAttribute('src', '../images/TouchCompanyInfoSearch.png');
+  */
+  btn.setAttribute('src', 'TouchCompanyInfoSearch.png');
 });
 
-// 「企業情報を検索する用のボタン」からマウスが外れた時に実行する
 btn.addEventListener('mouseleave', () => {
-  // コンソルにコメントを残す
-  console.log('mouseleaveが発生した！');
+  /*
+  btn.setAttribute('src', '../images/PaleCompanyInfoSearch.png');
+  */
+  btn.setAttribute('src', 'PaleCompanyInfoSearch.png');
 });
