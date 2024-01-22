@@ -33,7 +33,7 @@
         </div>
 
         <div class="logo">
-          <img target="logo-img" src="./images/TradeMark/Mikage IT Lab. Trade Mark. Icon.EraseBackgroundpng.png" alt="アイコン">
+          <img target="logo-img" src="./images/TradeMark/Trad Mark on Burner Bector.svg" alt="アイコン">
         </div>
 
         <div target="nav-block">
@@ -82,10 +82,10 @@
                     </p>
                   </td>
                   <td class="colon-td">
-                    <p class="title-word">：</p>
+                    <p class="title-loword">：</p>
                   </td>
                   <td class="text-input-td">
-                    <input type="text" name="username" size="12" id="username-obj" />
+                    <input id="username-obj" type="text" name="username" size="12" />
                   </td>
                   <td class="tail-td">
                     <p class="silent-word">右からむ</p>
@@ -145,7 +145,7 @@
                     <p class="title-word">：</p>
                   </td>
                   <td class="text-input-td">
-                    <input type="text" name="tel" size="8" placeholder="090-1234-5678" id="tel-obj" />
+                    <input id="tel-obj" type="text" name="tel" size="8" placeholder="090-1234-5678" />
                   </td>
                   <td class="tail-td">
                     <p class="silent-word">右からむ</p>
@@ -167,7 +167,7 @@
                     <p class="title-word">：</p>
                   </td>
                   <td class="text-input-td">
-                    <input type="text" name="emale" size="28" placeholder="username@example.com" id="emale-obj" />
+                    <input id="email-obj" type="text" name="email" size="28" placeholder="username@example.com" />
                   </td>
                   <td class="tail-td">
                     <p class="silent-word">右からむ</p>
@@ -243,7 +243,7 @@
 
               <!-- 問合せの種別 -->
               <!-- タイトル -->
-              <table class="inquiries-tbl one-row-table" border="1" solid="1">
+              <table class="inquiries-tbllol one-row-table" border="1" solid="1">
                 <tr class="single-row">
                   <td class="head-td">
                     <p class="silent-word">左カラム</p>
@@ -290,6 +290,7 @@
                   </td>
                 </tr>
               </table>
+
               <!-- お問い合わせ内容の入力欄 -->
               <table class="inquiries-tble title-row-many-row-table reply-area-align" border="1" solid="1">
                 <tr class="title-row-manu-row-table">
@@ -312,8 +313,8 @@
                     <p class="silent-word">左カラム</p>
                   </td>
                   <td class="content-td sex-td">
-                    <textarea class="inquiry-is" placeholder="ご記入ください..." name="inquiry-message" maxlength="800" cols="80"
-                      rows="10"></textarea>
+                    <textarea id="textarea-obj" class="inquiry-is" placeholder="ご記入ください..." name="inquiry-message" maxlength="800" cols="80"
+                      rows="10" ></textarea>
                   </td>
                   <td class="tail-td">
                     <p class="silent-word">右からむ</p>
@@ -321,12 +322,13 @@
                 </tr>
               </table>
 
+              <!-- 送信ボタン -->
+              <div class="send-btn">
+                <input id="check-btn" type="button" value="送信" />
+              </div>
+
             </div>
 
-            <!-- 送信ボタン -->
-            <div class="send-btn">
-              <input type="button" id="check-btn" value="送信" />
-            </div>
 
           </form>
 
@@ -370,10 +372,10 @@
 
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./js/inquiris.js"></script>
+
   </body>
-
-
 
 </html>

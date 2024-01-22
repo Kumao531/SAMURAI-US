@@ -1,0 +1,173 @@
+/* メイン部の背景 */
+.article-description {
+  background-image: url("../images/WallPapers/WhiteWallPaper.png");
+  background-repeat: repeat;
+  z-index: 52;
+  width: 1200px;
+  height: 3100px;
+  margin-top: -44px;
+}
+
+/* 羊皮紙メニューの背景 */
+.background-wallpaper {
+  background-image: url("../images/WallPapers/ParchmentMenuPaper.png");
+  background-repeat: no-repeat;
+  z-index: 53;
+  width: 1050px;
+  height: 3000px;
+}
+
+/************************************/
+/* 領域設定                         */
+/************************************/
+
+/** 上書き ***************************/
+/* ナビゲーション */
+
+div[target="nav-block"] > .nav-pc {
+  z-index: 52;
+  position: absolute;
+  top: -70px;
+  left: 980px;
+  font-size: 20px;
+}
+div[target="nav-block"] > .nav-pc > a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+div[target="nav-block"] > .nav-pc > a:link {
+  color: #000000;
+}
+div[target="nav-block"] > .nav-pc > a:visited {
+  color: #000000;
+}
+div[target="nav-block"] > .nav-pc > a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+div[target="nav-block"] > .nav-pc > a:active {
+  color: #000000;
+}
+
+/** 上書き（ここまで） ***************/
+
+/*** main部分の設定 ***/
+
+/* フォント設定 */
+
+.h2-menu {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  font-size: 36px;
+}
+
+.h2-title {
+  font-size: 36px;
+}
+
+.h3-title {
+  font-size: 30px;
+}
+
+.p-desc {
+  padding-top: 8px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+
+.p-desc2 {
+  margin: 0 20px;
+  padding: 20px 10px 10px 10px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #0e0e0e;
+}
+
+/* メニュー記述部の構造定義 */
+
+.explain-services {
+  width: 1000px;
+  padding: 10px 30px 10px 50px ;
+}
+
+.menu-top {
+  padding-top: 130px;
+}
+
+.individual-requirement {
+  margin: 10px 10px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.div-menu-detail  {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+  width: 1150px;
+  margin: 10px 10px;
+  padding: 20px 30px 10px 20px;
+}
+
+.mention-service {
+  margin: 10px 10px;
+  padding: 10px 10px 10px 25px;
+}
+
+.mention-service p {
+  margin: 0 0;
+  padding-left: 30px;
+}
+
+.tech-title {
+  padding: 10px 10px 10px 10px;
+}
+
+/*** ページ主記述部分の整理 ***/
+
+.div-block {
+  margin: 20px 40px 0 40px;
+  padding: 60px 10px 10px 10px;
+}
+
+/*** 上書き ***/
+/*** footer部の設定 ***/
+
+#wall-paper-footer-sideboard {
+  width: 1200px;
+  height: 155px;
+  background-color: darkblue;
+}
+
+footer .footer-block-sideboard {
+  z-index: 50;
+  width: auto;
+  height: 120px;
+  margin:  0 30px;
+  padding-top: 8px;/*
+  background-color: green;
+  opacity: 0.5;*/
+}
+
+footer .footer-block-box-sideboard {
+  position: absolute;
+  z-index: 51;
+  top: 18px;
+  left: 1030px;
+  width: 200px;
+  height: 180px;/*
+  background-color: brown;
+  opacity: 0.8;*/
+}
+
+footer .footer-copyright-sideboard {
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  width: 1150px;
+  height: 35px;/*
+  background-color: pink;
+  opacity: 0.5;*/
+}

@@ -14,7 +14,7 @@
   top: 130px;
   left: 40px;
   width: 1050px;
-  height: 4000px;
+  height: 800px;
   margin: 10px 10px 10px 10px;
   padding: 20px 20px 20px 20px;
 }
@@ -24,11 +24,6 @@
   left: 40px;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-}
-
-.inquiries-fields {
-  margin: 5px 0px;
-  padding: 5px 0px;
 }
 
 /********************************************/
@@ -42,8 +37,23 @@
 }
 
 /********************************************/
+/* フォームの構造を決めるテーブルの位置決め */
+/********************************************/
+.inquiries-tbl {
+  width: 800px;
+  margin: 10px 0 0 0;
+  padding: 10px 0 0 0;
+}
+
+/********************************************/
 /* テーブル内の文字の体裁                   */
 /********************************************/
+/* カラムにfillした仮の文字を消す*/
+.silent-word {
+  font-size: 1px;
+  opacity: 0;
+}
+
 /* タイトル行の文字の体裁 */
 .title-word {
   font-size: 18px;
@@ -55,6 +65,102 @@
   font-size: 12px;
   vertical-align: text-top;
   color: red;
+}
+
+/********************************************/
+/* 1行で構成されるテーブル                  */
+/********************************************/
+.one-row-table {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.head-td {
+  width: 5%;
+}
+
+.title-td {
+  width: 30%;
+}
+
+.colon-td {
+  width:5%
+}
+
+.tail-td {
+  width: 10%;
+}
+
+/********************************************/
+/* 2行で構成されるテーブル                  */
+/********************************************/
+.two-row-table-1st {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.row-two-row-table-1st {
+  height: 30px;
+}
+
+.two-row-table-2nd {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.row-two-row-table-2nd {
+  height: 30px;
+}
+
+.head-td-2nd-table {
+  width: 8%;
+}
+
+/********************************************/
+/* 2行以上で構成されるテーブル              */
+/********************************************/
+.title-row-many-row-table {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.title-row-manu-row-table {
+  height: 30px;
+}
+
+.reply-row-many-row-table {
+  width: 800px;
+  height: 40px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.reply-row-many-row-table {
+  height: 30px;
+}
+
+/********************************************/
+/* 個別の行（テーブル内）の体裁             */
+/********************************************/
+.sex-td {
+  padding: 5px;
+}
+
+.from-where-td {
+  height: 20px;
+  padding: 2px 0px 2px 0px;
+}
+
+.reply-area-align {
+  padding-top: 20px;
 }
 
 /********************************************/

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>ミカゲ.IT.ラボ | お問い合わせ</title>
+    <meta name="viewpoint" center="width=device-width" initial-scale="1">
+
+    <!-- 既定のCSS定義された定義をクリアリングする -->
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- 共通部分のCSS読み込み -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="sideboard.css">
+
+    <!-- このHTML固有のCSS読み込み -->
+    <link rel="stylesheet" href="inquiries.css">
+
+    <!-- 共通のJavaScriptの読み込み -->
+
+    <!-- このHTML固有のJavaScriptの読み込み -->
+
+  </head>
+
+  <body class="body">
+
+    <header class="header">
+
+      <article class="header-block">
+
+      <div>
+        <img target="banner-img" src="BannerBackground.png" alt="バナー背景">
+      </div>
+
+      <div class="logo">
+        <img target="logo-img" src="Trad Mark on Burner Bector.svg" alt="アイコン">
+      </div>
+
+      <div target="nav-block">
+        <nav class="nav-pc">
+          <a href="top.html">トップ</a>
+          <a href="aboutus.html#return-here">戻る</a>
+        </nav>
+      </div>
+
+    </article>
+
+  </header>
+
+  <main id="wall-paper-main" class="main">
+    <article class="article-title">
+
+      <!-- メイン画面 -->
+      <section id="section-main">
+
+      </section>
+
+    </article>
+
+    <!-- 画面主記述 -->
+    <article>
+    <dev  class="article-description">
+
+      <h3 class="form-title">お問い合わせ</h3>
+
+      <div class="form-area">
+
+          <!--顧客名-->
+          <label>お名前：</label>
+          <input id="username-obj" type="text" name="username" size="12" />
+          <br>
+          <!-- 性別 -->
+          <label>性別：</label>
+          <input type="radio" name="sex" value="male" checked>男性
+          <input type="radio" name="sex" value="female">女性
+          <input type="radio" name="sex" value="other">その他
+          <br>
+          <!-- 電話番号 -->
+          <label>電話番号：</label>
+          <input id="tel-obj" type="text" name="tel" size="8" placeholder="090-1234-5678" />
+          <br>
+          <!-- 電子メールアドレス -->
+          <label>メールアドレス</label>
+          <input id="email-obj" type="text" name="email" size="28" placeholder="username@example.com" />
+          <br>
+          <!-- 私どもをどこで知ったか（チェックボックス） -->
+          <label>ミカゲ．ＩＴ．ラボをどこで知りましたか：</label><br>
+          <input type="checkbox" name="whereis" value="家族">家族から
+          <input type="checkbox" name="whereis" value="知人">知人から
+          <input type="checkbox" name="whereis" value="クチコミ">クチコミから<br>
+          <input type="checkbox" name="whereis" value="ネット検索">ネットを検索して
+          <input type="checkbox" name="whereis" value="ネット記事">ネットの記事から
+          <input type="checkbox" name="whereis" value="SNS">SNSで見かけた
+          <input type="checkbox" name="whereis" value="他サイト">ほかのサイトで知った<br>
+          <input type="checkbox" name="whereis" value="雑誌">雑誌で見た
+          <input type="checkbox" name="whereis" value="ネット広告">インターネット広告
+          <input type="checkbox" name="whereis" value="ダイレクト">ダイレクト・メール
+          <br>
+          <!-- 問合せの種別 -->
+          <label>問合せの種別：</label>
+          <select name="inquiries-purpose">
+            <option value="問合せ">お問い合わせ</option>
+            <option value="要望">ご要望</option>
+            <option value="意見">ご意見</option>
+            <option value="感想">ご感想</option>
+            <option value="その他">その他</option>
+          </select>
+          <br>
+          <label>「その他」を選択したときには入力してください</label>
+          <input type="text" name="other-inquiry" size="40" placeholder="その他お問合せの目的..." disabled />
+          <br>
+          <label>問い合わせ内容を入力してください：</label>
+          <br>
+          <textarea id="textarea-obj" placeholder="ご記入ください..." name="inquiry-message" maxlength="800" cols="80"
+          rows="10" >
+          </textarea>
+          <br>
+          <input id="check-btn" type="button" value="送信" />
+
+
+        </dev>
+
+      </article>
+
+    </main>
+
+    <footer id="wall-paper-footer-sideboard">
+
+      <article id="footer">
+
+        <div id="div-footer">
+
+          <!-- フッター記載部 -->
+          <div class="footer-block-sideboard">
+            <!-- メニュー -->
+            <div class="footer-block-box-sideboard">
+              <h3 class="h3-footer">メニュー</h3>
+              <a class="menu-item" href="top.html">トップ</a>
+              <a class="menu-item" href="aboutus.html#return-here">戻る</a>
+            </div>
+          </div>
+
+          <!-- コピーライト記載部 -->
+          <div class="footer-copyright-sideboard">
+            <!-- 更新履歴 -->
+            <div id="dev-history">
+
+            </div>
+            <!-- コピーライト -->
+            <div>
+              <p class="mention-copyright">© 2024 Mikage IT Lab. LLC.</p>
+            </div>
+          </div>
+        </div>
+
+      </article>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="inquiris.js"></script>
+
+  </body>
+
+</html>

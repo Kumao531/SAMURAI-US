@@ -15,12 +15,6 @@
   <!-- このHTML固有のCSS読み込み -->
   <link rel="stylesheet" href="./css/aboutus.css" >
 
-  <!-- 共通のJavaScriptの読み込み -->
-  <scrip src="./js/mikage-common.js" defer></scrip>"
-
-  <!-- このHTML固有のJavaScriptの読み込み -->
-  <script src="./js/btn.js" defer></script>
-
 </head>
 
 <body class="body">
@@ -34,7 +28,7 @@
       </div>
 
       <div class="logo">
-        <img target="logo-img" src="./images/TradeMark/Mikage IT Lab. Trade Mark. Icon.EraseBackgroundpng.png" alt="アイコン">
+        <img target="logo-img" src="./images/TradeMark/Trad Mark on Burner Bector.svg" alt="アイコン">
       </div>
 
       <div target="nav-block">
@@ -96,7 +90,7 @@
             <!-- 企業情報部分-->
             <div id="button-company-info" class="div-button">
               <a class="info-enterprise" href="./enterprise-info.html">
-                <img target="search-btn" class="get-company-info" src="./images/Page-aboutus/PaleCompanyInfoSearch.png" alt="企業情報検索ボタン">
+                <img target="search-btn" class="get-company-info" id="btn-company" src="./images/Page-aboutus/PaleCompanyInfoSearch.png" alt="企業情報検索ボタン">
               </a>
 
             </div>
@@ -104,34 +98,34 @@
             <!-- オフィース所在地情報部分-->
             <div class="button-office-info div-button">
               <a class="info-office" href="./office-info.html">
-                <img target="search-btn" class="get-office-info" src="./images/Page-aboutus/PaleOfficeInfoSearch.png" alt="オフィス情報検索ボタン">
+                <img target="search-btn" class="get-office-info" id="btn-office" src="./images/Page-aboutus/PaleOfficeInfoSearch.png" alt="オフィス情報検索ボタン">
               </a>
             </div>
 
             <!-- 開発・テスト環境情報部分-->
             <div class="button-systrem-env-info div-button">
               <a class="info-system-env" href="system-env-info.html">
-                <img target="search-btn" class="get-system-info" src="./images/Page-aboutus/PaleSystemInfoSearch.png" alt="開発・テスト環境情報検索ボタン">
+                <img target="search-btn" class="get-system-info" id="btn-dev" src="./images/Page-aboutus/PaleSystemInfoSearch.png" alt="開発・テスト環境情報検索ボタン">
               </a>
             </div>
 
             <!-- 代表プロフィール情報部分-->
             <div class="button-profile-info div-button">
               <a class="info-profile" href="profile-info.html">
-                <img target="search-btn" class="get-profile-info" src="./images/Page-aboutus/PaleProfileInfoSearch.png" alt="代表のプロフィール検索ボタン">
+                <img target="search-btn" class="get-profile-info" id="btn-profile" src="./images/Page-aboutus/PaleProfileInfoSearch.png" alt="代表のプロフィール検索ボタン">
               </a>
             </div>
 
             <!-- モットー情報部分-->
             <div class="button-motto-info div-button">
               <a class="info-motto" href="motto-info.html">
-                <img target="search-btn" class="get-motto-info" src="./images/Page-aboutus/PaleMottoInfoSearch.png" alt="モットーについての検索ボタン">
+                <img target="search-btn" class="get-motto-info" id="btn-motto" src="./images/Page-aboutus/PaleMottoInfoSearch.png" alt="モットーについての検索ボタン">
               </a>
             </div>
 
             <!-- ボタン予備位置（確保、未使用） -->
             <div class="button-reserved div-button">
-              <img target="search-btn" class="reserved-one" src="./images/Page-aboutus/PaleReservedOneSearch.png" alt="ボタン予備">
+              <img id="submit" target="search-btn" class="reserved-one" src="./images/Page-aboutus/PaleReservedOneSearch.png" alt="ボタン予備">
             </div>
 
           </div>
@@ -229,6 +223,12 @@
   </article>
 
   </footer>
+
+<!-- 共通のJavaScriptの読み込み -->
+<scrip src="./js/mikage-common.js" defer></scrip>"
+
+<!-- このHTML固有のJavaScriptの読み込み -->
+<script src="./js/aboutus.js" defer></script>
 
 </body>
 
