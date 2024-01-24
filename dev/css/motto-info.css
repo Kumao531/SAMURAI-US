@@ -36,15 +36,15 @@
 /*** 背景動画の設定 ***/
 video[target="video-heart-beat"] {
   width: 1200px;
-  height: 1080px;
+  height: 800px;
 }
 
 .back-movie {
-  top: -300px;
+  top: -143px;
   left: -50px;
   width: 1200px;
-  height: 1080px;
+  height: 700px;
   background-color: white;
   overflow: hidden;
-  opacity: 0.15;
+  opacity: 0.1;
 }

@@ -101,7 +101,7 @@
                     <p class="silent-word">左カラム</p>
                   </td>
                   <td class="title-td">
-                    <p class="title-word">性別<spam class="empasis-phrase">必須</spam>
+                    <p class="title-word" id="title-sex">性別<spam class="empasis-phrase">必須</spam>
                     </p>
                   </td>
                   <td class="colon-td">
@@ -122,7 +122,8 @@
                     <p class="silent-word">左カラム</p>
                   </td>
                   <td class="content-td sex-td">
-                    <input type="radio" name="sex" value="male" checked>男性
+                    <input type="radio" name="sex" value="male"
+                    >男性
                     <input type="radio" name="sex" value="female">女性
                     <input type="radio" name="sex" value="other">その他
                   </td>
@@ -177,13 +178,13 @@
 
               <!-- 私どもをどこで知ったか（チェックボックス） -->
               <!-- タイトル -->
-              <table class="inquiries-tble title-row-many-row-table" border="1" solid="1">
+              <table class="inquiries-tbl title-row-many-row-table" border="1" solid="1">
                 <tr class="title-row-manu-row-table">
                   <td class="head-td">
                     <p class="silent-word">左カラム</p>
                   </td>
-                  <td class="title-td-many-row-table">
-                    <p class="title-word">どこでミカゲ．ＩＴ．ラボを知りましたか？<spam class="empasis-phrase">1つ以上を選択</spam>
+                  <td class="title-td-many-row-table" id="question-01">
+                    <p class="title-word where-do-you-know">どこでミカゲ．ＩＴ．ラボを知りましたか？<spam class="empasis-phrase">1つ以上を選択</spam>
                     </p>
                   </td>
                   <td class="tail-td">
@@ -192,8 +193,8 @@
                 </tr>
               </table>
               <!-- 回答 -->
-              <table class="inquiries-tble reply-row-many-row-table" border="1" solid="1">
-                <tr class="reply-row-many-row-table">
+              <table class="inquiries-tbl reply-row-many-row-table" border="1" solid="1">
+                <tr class="reply-row-many-row">
                   <td class="head-td-2nd-table">
                     <p class="silent-word">左カラム</p>
                   </td>
@@ -208,8 +209,8 @@
                 </tr>
               </table>
               <!-- 回答 -->
-              <table class="inquiries-tble reply-row-many-row-table" border="1" solid="1">
-                <tr class="reply-row-many-row-table">
+              <table class="inquiries-tbl reply-row-many-row-table" border="1" solid="1">
+                <tr class="reply-row-many-row">
                   <td class="head-td-2nd-table">
                     <p class="silent-word">左カラム</p>
                   </td>
@@ -225,8 +226,8 @@
                 </tr>
               </table>
               <!-- 回答 -->
-              <table class="inquiries-tble reply-row-many-row-table" border="1" solid="1">
-                <tr class="reply-row-many-row-table">
+              <table class="inquiries-tbl reply-row-many-row-table" border="1" solid="1">
+                <tr class="reply-row-many-row">
                   <td class="head-td-2nd-table">
                     <p class="silent-word">左カラム</p>
                   </td>
@@ -243,7 +244,7 @@
 
               <!-- 問合せの種別 -->
               <!-- タイトル -->
-              <table class="inquiries-tbllol one-row-table" border="1" solid="1">
+              <table class="inquiries-tbl one-row-table" border="1" solid="1">
                 <tr class="single-row">
                   <td class="head-td">
                     <p class="silent-word">左カラム</p>
@@ -283,7 +284,7 @@
                   </td>
                   <td class="text-input-td">
                     <p>「その他」を選ばれたときにはご入力ください<spam class="empasis-phrase">40文字以内</spam></p>
-                    <input type="text" name="other-inquiry" size="40" placeholder="その他お問合せの目的..." disabled />
+                    <input id="other-reason" type="text" name="other-inquiry" size="40" placeholder="その他お問合せの目的..." />
                   </td>
                   <td class="tail-td">
                     <p class="silent-word">右からむ</p>
@@ -292,7 +293,7 @@
               </table>
 
               <!-- お問い合わせ内容の入力欄 -->
-              <table class="inquiries-tble title-row-many-row-table reply-area-align" border="1" solid="1">
+              <table class="inquiries-tbl title-row-many-row-table reply-area-align" border="1" solid="1">
                 <tr class="title-row-manu-row-table">
                   <td class="head-td">
                     <p class="silent-word">左カラム</p>

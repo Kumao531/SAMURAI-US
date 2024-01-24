@@ -77,6 +77,22 @@ div[target="nav-block"] > .nav-pc > a:active {
   color: #0e0e0e;
 }
 
+.p-desc-in-title {
+  padding-top: 12px;
+  padding-left: 38px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+
+.mention-p-desc-in-title {
+  padding-top: 4px;
+  padding-left: 65px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+
 .p-desc2 {
   margin: 0 20px;
   padding: 20px 10px 10px 10px;

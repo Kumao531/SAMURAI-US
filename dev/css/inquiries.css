@@ -35,15 +35,81 @@
 /* フォームタイトルの体裁の設定             */
 /********************************************/
 .form-title {
-  margin: 10px 10px 0 10px;
-  padding: 20px 20px 0 20px;
+  margin: 0px 10px 0px 10px;
+  padding: 10px 20px 10px 20px;
   font-size: 32px;
   line-height: 42px;
 }
 
 /********************************************/
+/* テーブルと列とカラムの体裁調整           */
+/********************************************/
+.inquiries-tbl {
+  width: 800px;
+}
+
+/* １行のテーブル */
+.one-row-table {
+  height: 50px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.head-td {
+  width: 5%;
+}
+.title-td {
+  width: 30%;
+}
+.colon-td {
+  width:5%
+
+}
+.tail-td {
+  width: 5%;
+}
+
+/* 2行テーブル */
+.two-row-table-1st {
+  height: 50px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.two-row-table-2nd {
+  height:40px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+/* タイトル行 */
+.two-row-table-1s {
+  margin: 0 0;
+  padding: 0 0;
+}
+.head-td-2nd-table {
+  width: 10%;
+}
+
+/* 多数行テーブル */
+.reply-row-many-row-table {
+  height: 50px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+.reply-row-many-row-table {
+  height: 30px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+/********************************************/
 /* テーブル内の文字の体裁                   */
 /********************************************/
+/* 非表示文字 */
+
+.silent-word {
+  font-size: 1px;
+  opacity: 0.0;
+}
+
 /* タイトル行の文字の体裁 */
 .title-word {
   font-size: 18px;

@@ -5,7 +5,7 @@
   background-repeat: repeat;
   z-index: 52;
   width: 1200px;
-  height: 1950px;
+  height: 2050px;
   margin-top: -44px;
 }
 
@@ -51,14 +51,15 @@ img[target="img-profile"] {
 
 td#ryakureki_note p {
   font-size: 18px;
-  line-height: 32px;
+  line-height: 30px;
   color: black;
 }
 
 .reader_note {
+  padding-top: 5px;
   padding-left: 24px;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 30px;
   color: black;
 }
 

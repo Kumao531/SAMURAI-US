@@ -3,7 +3,7 @@
   background-image: url("../images/WallPapers/WhiteWallPaper.png");
   background-repeat: repeat;
   width: 1200px;
-  height: 3000px;
+  height: 4000px;
   margin-top: -44px;
 }
 
@@ -54,11 +54,14 @@
 }
 .td-right-tbl-left  {
   width: 400px;
+  padding-top: 0px;
+  vertical-align: top;
 }
 /* 右文章型テーブル設計 */
 .tbl-right {
   width:1100px;
   padding: 30px 0 0 0;
+  vertical-align: top;
 }
 .td-left-tbl-right  {
   width: 400px;
@@ -73,8 +76,15 @@
 
 /* 文体体裁の設計 */
 .p-td {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 28px;
+  color: black;
+}
+
+.h4-title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
 }
 
 /* 写真 */
